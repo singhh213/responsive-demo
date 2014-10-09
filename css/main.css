@@ -10,3 +10,65 @@ h1, h2, h3, h4, .lead {
     font-family: 'Satisfy', Helvetica, sans-serif;
 }
 
+.jumbotron {
+	background-color: #AAAAAA;
+}
+
+.first-row {
+	background-color: #AA5000;
+}
+
+footer {
+	position: fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+nav {
+	margin-top: 1em;
+}
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 2em;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+.lead {
+	display: none;
+}
+
+@media (min-width: 992px) {
+
+	header {
+		position: relative;
+	}
+
+	nav {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+	.lead {
+		display: inline;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
